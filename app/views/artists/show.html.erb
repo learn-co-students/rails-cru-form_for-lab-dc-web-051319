@@ -1,0 +1,9 @@
+<h1><%= @artist.name %>'s Information</h1>
+<div>
+    <div><h3>Name:</h3></div>
+    <div><%= @artist.name %></div>
+    <div><h3>Biography:</h3></div>
+    <div><p><%= @artist.bio %></p></div>
+</div>
+
+<a href="<%= edit_artist_path(@artist) %>"><h2>EDIT</h2></a>
