@@ -1,0 +1,11 @@
+<h1>Show</h1>
+
+<h1><%= @song.name%></h1>
+
+<%= link_to artist_path(@artist) do %>
+    <h1> <%= @artist.name %></h1>  
+<% end %>
+
+<%= link_to genre_path(@genre) do %>
+    <h1><%= @genre.name%></h1>
+<% end %>
