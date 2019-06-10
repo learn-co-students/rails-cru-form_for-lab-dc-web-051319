@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Artist.create(name: "Eminem", bio: "Marshall Bruce Mathers III, known professionally as Eminem, is an American rapper, songwriter, record producer, record executive, film producer, and actor.")
+
+Genre.create(name: "Rap")
+
+# Song.create(name: "Lose Yourself")
