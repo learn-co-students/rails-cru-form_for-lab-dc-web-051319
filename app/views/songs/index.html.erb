@@ -1,0 +1,14 @@
+<h1>Songs#index</h1>
+<p>Find me in app/views/songs/index.html.erb</p>
+
+
+<% @songs.each.with_index(1) do |song, i| %>
+  <label>Song Number: <%= i %></label><br>
+  <label> Song Name: </label>
+  <p><%= song.name %></p><br>
+  <label> Artist ID: </label>
+  <%= song.artist_id %><br>
+  <label> Genre ID: </label>
+  <%= song.genre_id %><br>
+
+<% end %>
